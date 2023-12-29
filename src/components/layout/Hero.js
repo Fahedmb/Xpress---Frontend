@@ -8,12 +8,11 @@ export default function Hero(){
         <section className="hero mt-4">
         <div className="py-16">
             <h1 className="text-4xl font-semibold">
-            Elevate&nbsp; <span className="text-primary">HR</span><br />
-            Using&nbsp; <span className="text-primary">HRPRO</span>
+            Your Nook of &nbsp; <span className="text-primary">Stories and Serenity.</span>
             </h1>
-            <p className="mt-8 text-gray-500 text-sm"> At HR Pro, we believe in the power of seamless HR management. Our innovative tools are crafted to simplify complexities, secure your data with utmost precision, and empower your business for success. We're not just redefining HR; we're revolutionizing the way you experience it. With HR Pro, embrace a future where efficiency meets empowerment, and where every HR task is a step towards a brighter, more productive workplace.<br/> Welcome to the era of HR Pro – where simplicity, security, and success converge seamlessly.</p>
+            <p className="mt-8 text-gray-500 text-sm">Welcome to Xpress, a quaint corner where the joy of reading and the warmth of a familiar space come together. <br />Our library, rooted in family tradition, offers you a tranquil retreat from the rush of daily life. Picture a cozy living room, shelves lined with tales of yesteryear and today, waiting to be discovered and cherished. At Xpress, we believe in the simple pleasure of a good book and the quiet moments of reflection it brings. <br />Whether you're revisiting an old favorite or seeking a new adventure in the pages of an unexplored title, our doors are open. <br /><br />Join us in this peaceful haven, find your comfortable spot, and let the world of books envelop you in its embrace.</p>
             <div className="flex gap-4 text-sm mt-8">
-              <button className="bg-primary text-white px-4 py-2 rounded-full flex gap-2 uppercase items-center">
+              <button className="bg-Raw_umber text-white px-4 py-2 rounded-full flex gap-2 uppercase items-center">
                 Enroll now
                 <In />
               </button>
@@ -24,7 +23,7 @@ export default function Hero(){
             </div>
         </div>
         <div className="relative">
-          <Image src={'/pngwing.png'} layout={'fill'} objectFit={'contain'} alt={'HRPro'} />
+          <Image src={'/books.png'} layout={'fill'} objectFit={'contain'} alt={'HRPro'} />
         </div>
     </section>
     );
