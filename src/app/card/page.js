@@ -17,10 +17,10 @@ export default function CardPage() {
                         <Image className="rounded-lg mb-2" src={'/card.png'} width={250} height={250} alt="avatar" />
                     </div>
                     <div className="grow" onSubmit={HandleCardInfoUpdate}>
-                        <input type="text" disabled={true} placeholder="Card number" />
+                        <input type="number" disabled={true} placeholder="Card number" />
                         <input type="text" disabled={true} placeholder="Card type" />
-                        <input type="text" disabled={true} placeholder="Card expiration date" />
-                        <input type="text" disabled={true} placeholder="created At" />
+                        <input type="date" disabled={true} placeholder="Card expiration date" />
+                        <input type="date" disabled={true} placeholder="created At" />
                     </div>
                 </div>
             </form>

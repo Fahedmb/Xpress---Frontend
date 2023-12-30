@@ -24,11 +24,22 @@ export default function ProfilePage() {
                         </label>
                     </div>
                     <div className="grow" onSubmit={HandleProfileInfoUpdate}>
+                        <label className="text-gray-500">Username</label>
                         <input type="text" placeholder="Username" />
+                        <label className="text-gray-500">Email</label>
                         <input type="email" disabled={true} placeholder="email" />
-                        <input type="text" disabled={true} placeholder="Joined since:" />
-                        <input type="text" disabled={true} placeholder="Borrowed books:" />
-                        <input type="text" disabled={true} placeholder="Role" />
+                        <label className="text-gray-500">Joined since:</label>
+                        <input type="date" disabled={true} placeholder="Joined since:" />
+                        <div className="flex gap-4 items-center">
+                            <div>
+                                <label className="text-gray-500">Borrowed books:</label>
+                                <input type="number" disabled={true} placeholder="Borrowed books:" />
+                            </div>
+                            <div>
+                                <label className="text-gray-500">Role</label>
+                                <input type="text" disabled={true} placeholder="Role" />
+                            </div>
+                        </div>
                         <button type="submit">Save</button>
                     </div>
                 </div>

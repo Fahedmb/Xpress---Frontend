@@ -28,7 +28,7 @@ export default function RegisterPage(){
                 Register
             </h1>
             <form className="block max-w-xs mx-auto" onSubmit={handleFormSubmit}>
-                <input type="text" placeholder="username" value={username} onChange={ ev=>setUsername(ev.target.value)}/>
+                <input type="text" placeholder="username" disabled={false} value={username} onChange={ ev=>setUsername(ev.target.value)}/>
                 <input type="email" placeholder="email" value={email} onChange={ ev=>setEmail(ev.target.value)}/>
                 <input type="password" placeholder="password"value={password} onChange={ ev=>setPassword(ev.target.value)}/>
                 <button type="submit">Register</button>
